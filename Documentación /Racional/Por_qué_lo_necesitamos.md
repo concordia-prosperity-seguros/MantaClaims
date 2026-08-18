@@ -14,7 +14,7 @@ Sin una plataforma que estructure y sustente el análisis, la aseguradora quedar
 
 ## 3. Para qué resolverlo
 
-Hay dos objetivos detrás de resolver este problema. El primero es poder pagar con conocimiento de causa, es decir, que cada decisión de indemnización esté sustentada y sea trazable. El segundo es de posicionamiento: como aseguradora nueva, la intención es diferenciarse desde el diseño mismo de la operación, ofreciendo un proceso de indemnización ágil y transparente. *(Interpretación: estos dos objetivos están conectados (la solidez del sustento de cada decisión y la agilidad del proceso no se plantean como metas independientes, sino como dos caras de la misma propuesta de valor operativa).)*
+Hay dos objetivos detrás de resolver este problema. El primero es poder pagar con conocimiento de causa, es decir, que cada decisión de indemnización esté sustentada y sea trazable. El segundo es de posicionamiento: como aseguradora nueva, la intención es diferenciarse desde el diseño mismo de la operación, ofreciendo un proceso de indemnización ágil y transparente. 
 
 ## 4. Para quién
 
