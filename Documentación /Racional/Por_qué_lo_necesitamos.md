@@ -8,9 +8,9 @@ Ese esquema manual no garantiza escalabilidad cuando crezca el volumen de sinies
 
 Sin una plataforma que estructure y sustente el análisis, la aseguradora quedaría expuesta a tres consecuencias concretas:
 
-- Pagar (o glosar) sin conocimiento de causa: la decisión de pago se tomaría sin una base de análisis clara y verificable, no porque el valor pagado sea necesariamente incorrecto, sino porque no habría cómo demostrar que fue la decisión correcta.
+- Pagar (o glosar) sin conocimiento de causa: la decisión de pago se tomaría sin una base de análisis clara y verificable, no porque el valor pagado sea necesariamente incorrecto, sino porque no habría cómo demostrar cómo se tomo la decisión.
 - Exposición regulatoria y legal por falta de trazabilidad de las decisiones de indemnización.
-- Imposibilidad de auditar cómo se tomó cada decisión, lo que compromete tanto el control interno como la revisión de un auditor externo.
+- Imposibilidad de auditar cómo se tomó cada decisión, lo que compromete tanto el control interno como la auditoría.
 
 ## 3. Para qué resolverlo
 
@@ -25,17 +25,15 @@ El problema es de la operación de la aseguradora en conjunto, y en particular d
 Para el analista y el director, la ausencia de esta plataforma se traduce en tres fricciones concretas:
 
 - No tienen cómo sustentar la decisión de pago o glosa que toman.
-- Reunir la evidencia y hacer el análisis les toma demasiado tiempo, incluyendo relacionar el siniestro con reclamos y verificar si está dentro de las coberturas.
+- Reunir la evidencia y hacer el análisis les toma tiempo, incluyendo relacionar el siniestro con reclamos y verificar si está dentro de las coberturas.
 - No tienen información clara sobre la facturación de cada prestador, lo que limita su capacidad de identificar patrones o comportamientos problemáticos.
 
 ## 6. Solución satisfactoria
 
-Como propuesta a validar (no como la única solución posible), el usuario define que una solución sería satisfactoria si permite:
-
 1. Revisar la información que RGC reportó sobre un siniestro.
 2. Tomar una decisión de pago o glosa sobre un siniestro.
 3. Verificar si un siniestro cumple los requisitos de pago respecto a amparos y coberturas.
-4. Realizar muestreo in situ (auditoría de casos) dentro de la misma plataforma.
+4. Realizar muestreo (auditoría de casos) dentro de la misma plataforma.
 5. Revisar el comportamiento de los prestadores a nivel nacional.
 
 Esta lista de criterios de éxito es un buen punto de partida, pero conviene tratarla como hipótesis a afinar con el equipo antes de convertirla en requisitos de una spec (por ejemplo, precisando qué significa exactamente "muestreo in situ" dentro de la plataforma).
@@ -44,11 +42,5 @@ Sobre el primer punto (revisar la información que RGC reportó), el usuario pre
 
 ## Síntesis del problema
 
-Manta Seguros, una aseguradora sin operación previa, necesita poder recibir, analizar y decidir sobre siniestros desde el primer día, y hoy no cuenta con ninguna plataforma para hacerlo (la alternativa sería un proceso manual que no escala y que no deja sustento verificable de cada decisión). Esto deja al analista y al director de indemnizaciones sin forma de justificar sus decisiones, les exige un esfuerzo desproporcionado para reunir evidencia, y les impide ver el comportamiento de los prestadores. El problema, entonces, no es solo operativo: sin resolverlo, la aseguradora arrancaría con riesgo regulatorio, sin capacidad de auditoría y sin la base de transparencia y agilidad que quiere usar como diferenciador frente al mercado.
+Manta Seguros, una aseguradora sin operación previa, necesita poder recibir, analizar y decidir sobre siniestros desde el primer día, y hoy no cuenta con ninguna plataforma para hacerlo (la alternativa sería un proceso manual que no escala y que no deja sustento verificable de cada decisión). Esto deja al analista y al director de indemnizaciones sin forma de justificar sus decisiones, les exige un esfuerzo desproporcionado para reunir evidencia, y les impide ver el comportamiento de prestadores y departamentos. El problema, entonces, no es solo operativo, la aseguradora arrancaría con riesgo regulatorio, sin capacidad de auditoría y sin la base de transparencia y agilidad que quiere usar como diferenciador frente al mercado.
 
-## Información pendiente
-
-- No hay datos cuantitativos sobre el volumen de siniestros esperado al inicio de operación ni sobre cómo escalaría ese volumen en el tiempo, lo que ayudaría a dimensionar qué tan urgente es el riesgo de "no escalar".
-- No se mencionó evidencia externa (por ejemplo, casos de otras aseguradoras, hallazgos de auditoría previos en el mercado, o normativa específica del regulador) que respalde el riesgo regulatorio y legal señalado en la pregunta 2.
-- No quedó definido qué tiempo se considera hoy "demasiado tiempo" para el análisis de un siniestro (ya se precisó, en cambio, qué evidencia mínima sustenta una decisión: soportes, facturas, RIPS, documentos médicos, coincidencia de CUPS y concordancia con el manual tarifario).
-- El criterio de éxito "capacidad de muestreo in situ dentro de la plataforma" no quedó del todo explícito (valdría la pena precisar si se refiere a auditoría de casos por muestreo estadístico, a inspección de campo, o a otra cosa).
